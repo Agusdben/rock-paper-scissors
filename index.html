@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>rock paper scissors</title>
+</head>
+
+<body>
+  <div id="app" class="app">
+    <header class="app__header">
+      <span class="logo"></span>
+    </header>
+    <main class="app__main">
+      <section class="game">
+        <span id="game-result" class="game__result"></span>
+        <article class="game__player">
+          <p class="game__player-name">Player</p>
+          <div class="game__controlls">
+            <button id="rock" class="game__button" type="button">✊🏿</button>
+            <button id="paper" class="game__button" type="button">🧻</button>
+            <button id="scissors" class="game__button" type="button">✂</button>
+          </div>
+          <div class="game__choose">
+            <span id="player-choose"></span>
+          </div>
+        </article>
+        <article class="game__info">
+          <span id="player-wins">0</span>
+          <span id="versus" class="game__versus">VS.</span>
+          <span id="machine-wins">0</span>
+        </article>
+        <article class="game__player game__machine">
+          <p class="game__machine-name">Machine</p>
+          <div class="game__choose">
+            <span id="machine-choose"></span>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="app__footer">
+      <section>
+        <span>Created by Agustin Di Benedetto</span>
+      </section>
+      <section>
+        <a class="app__footer__link" href="https://www.linkedin.com/in/agustin-di-benedetto-7509071ba/" target="_blank"
+          rel="noreferer">Linkedin</a>
+        <span>|</span>
+        <a class="app__footer__link" href="https://github.com/Agusdben" target="_blank" rel="noreferer">Github</a>
+      </section>
+    </footer>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
